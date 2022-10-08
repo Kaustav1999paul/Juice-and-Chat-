@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>E_Commerce</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="myDIV">
+<h1>Fruit and Juice Shop</h1>
+<p>Drink and Eat healthy everyday and be ready for tomorrow</p>
+</div>
+
+<div id="container">
+
+  <button class="learn-more" onclick="placeOrder()">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">Place Order</span>
+  </button>
+  
+  <br><br>
+  
+  <button class="learn-more" onclick="addItem()">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">Add Item</span>
+  </button>
+  
+  <br><br>
+  
+  <button class="learn-more" onclick="addWorker()">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">Add Worker</span>
+  </button>
+  
+  <br><br>
+  
+  <button class="learn-more" onclick="More()">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">More</span>
+  </button>
+  
+  
+</div>
+
+
+
+<script type="text/javascript">
+function addItem(){
+	window.location.href = 'addItem.html';
+}
+
+function placeOrder(){
+	window.location.href = 'placeOrder.html';
+}
+
+function addWorker(){
+	window.location.href = 'addWorker.html';
+}
+
+function More(){
+	window.location.href = 'More.html';
+}
+
+
+</script>
+</body>
+</html>
