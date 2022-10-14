@@ -58,7 +58,7 @@ public class AddWorker extends HttpServlet {
             int x=ps.executeUpdate();    
                 
             if(x==1){    
-            	pw.println("Values Inserted Successfully");    
+            	pw.println("Worker Details added Successfully!!");    
             }else {
             	pw.println("Error !!");
             }    
